@@ -1,0 +1,21 @@
+# Visual Studio temporary files
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Build folders
+bin/
+obj/
+
+# EF Core Migrations (اختياري - امسحي الهاش لو مش عايزة ترفعي المايجريشن)
+# Migrations/
+
+# Secret / config files
+appsettings.Development.json
+appsettings.Secrets.json
+
+# Database files
+*.db
+*.bak

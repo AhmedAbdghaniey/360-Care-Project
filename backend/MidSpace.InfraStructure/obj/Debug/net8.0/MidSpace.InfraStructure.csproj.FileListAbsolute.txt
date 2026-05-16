@@ -1,0 +1,48 @@
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\bin\Debug\net8.0\MidSpace.InfraStructure.deps.json
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\bin\Debug\net8.0\MidSpace.InfraStructure.runtimeconfig.json
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\bin\Debug\net8.0\MidSpace.InfraStructure.dll
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\bin\Debug\net8.0\MidSpace.InfraStructure.pdb
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.csproj.AssemblyReference.cache
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.AssemblyInfoInputs.cache
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.AssemblyInfo.cs
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.csproj.CoreCompileInputs.cache
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.sourcelink.json
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.dll
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\refint\MidSpace.InfraStructure.dll
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.pdb
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.genruntimeconfig.cache
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\ref\MidSpace.InfraStructure.dll
+C:\Users\sw\AppData\Local\Temp\MidSpaceDomain\MidSpace.InfraStructure.deps.json
+C:\Users\sw\AppData\Local\Temp\MidSpaceDomain\MidSpace.InfraStructure.runtimeconfig.json
+C:\Users\sw\AppData\Local\Temp\MidSpaceDomain\MidSpace.InfraStructure.dll
+C:\Users\sw\AppData\Local\Temp\MidSpaceDomain\MidSpace.InfraStructure.pdb
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\bin\Debug\net8.0\MidSpace.InfraStructure.deps.json
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\bin\Debug\net8.0\MidSpace.InfraStructure.runtimeconfig.json
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\bin\Debug\net8.0\MidSpace.InfraStructure.dll
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\bin\Debug\net8.0\MidSpace.InfraStructure.pdb
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.csproj.AssemblyReference.cache
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.AssemblyInfoInputs.cache
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.AssemblyInfo.cs
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.csproj.CoreCompileInputs.cache
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.dll
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\refint\MidSpace.InfraStructure.dll
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.pdb
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.genruntimeconfig.cache
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\ref\MidSpace.InfraStructure.dll
+D:\.gig\Space-Project\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.sourcelink.json
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.InfraStructure\bin\Debug\net8.0\MidSpace.InfraStructure.deps.json
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.InfraStructure\bin\Debug\net8.0\MidSpace.InfraStructure.runtimeconfig.json
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.InfraStructure\bin\Debug\net8.0\MidSpace.InfraStructure.dll
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.InfraStructure\bin\Debug\net8.0\MidSpace.InfraStructure.pdb
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.csproj.AssemblyReference.cache
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.AssemblyInfoInputs.cache
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.AssemblyInfo.cs
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.csproj.CoreCompileInputs.cache
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.dll
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.InfraStructure\obj\Debug\net8.0\refint\MidSpace.InfraStructure.dll
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.pdb
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.InfraStructure\obj\Debug\net8.0\MidSpace.InfraStructure.genruntimeconfig.cache
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.InfraStructure\obj\Debug\net8.0\ref\MidSpace.InfraStructure.dll

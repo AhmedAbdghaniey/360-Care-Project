@@ -1,0 +1,73 @@
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.deps.json
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.dll
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.pdb
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Data.dll
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.InfraStructure.dll
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Data.pdb
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.InfraStructure.pdb
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.AssemblyReference.cache
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfoInputs.cache
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfo.cs
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.sourcelink.json
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.CC55ECBF.Up2Date
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.dll
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\refint\MidSpace.Domain.dll
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.pdb
+C:\Users\sw\Downloads\Mid-Space-Project\Mid-Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\ref\MidSpace.Domain.dll
+D:\.gig\Space-Project\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.deps.json
+D:\.gig\Space-Project\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.dll
+D:\.gig\Space-Project\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.pdb
+D:\.gig\Space-Project\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Data.dll
+D:\.gig\Space-Project\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.InfraStructure.dll
+D:\.gig\Space-Project\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Data.pdb
+D:\.gig\Space-Project\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.InfraStructure.pdb
+D:\.gig\Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.AssemblyReference.cache
+D:\.gig\Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\.gig\Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfoInputs.cache
+D:\.gig\Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfo.cs
+D:\.gig\Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.CoreCompileInputs.cache
+D:\.gig\Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.CC55ECBF.Up2Date
+D:\.gig\Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.dll
+D:\.gig\Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\refint\MidSpace.Domain.dll
+D:\.gig\Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.pdb
+D:\.gig\Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\ref\MidSpace.Domain.dll
+D:\.gig\Space-Project\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.sourcelink.json
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.deps.json
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.dll
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.pdb
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Data.dll
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.InfraStructure.dll
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Data.pdb
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.InfraStructure.pdb
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.AssemblyReference.cache
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfoInputs.cache
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfo.cs
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.CoreCompileInputs.cache
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.CC55ECBF.Up2Date
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.dll
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\refint\MidSpace.Domain.dll
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.pdb
+C:\Users\top10\OneDrive - Higher Technological Institute\Desktop\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\ref\MidSpace.Domain.dll
+C:\Users\sw\Downloads\New folder\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.dll
+C:\Users\sw\Downloads\New folder\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\refint\MidSpace.Domain.dll
+C:\Users\sw\Downloads\New folder\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.pdb
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.dll
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\refint\MidSpace.Domain.dll
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.pdb
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.deps.json
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.dll
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.pdb
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Data.dll
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.InfraStructure.dll
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Data.pdb
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\bin\Debug\net8.0\MidSpace.InfraStructure.pdb
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.AssemblyReference.cache
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfoInputs.cache
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfo.cs
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\MidSpace.CC55ECBF.Up2Date
+C:\Users\sw\Downloads\midspace\New folder\backend\MidSpace.Domain\obj\Debug\net8.0\ref\MidSpace.Domain.dll

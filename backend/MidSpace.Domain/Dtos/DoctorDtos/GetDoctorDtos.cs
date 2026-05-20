@@ -16,5 +16,6 @@ namespace MidSpace.Domain.Dtos.DoctorDtos
         public double DoctorScore { get; set; }
         public string? AvailabilityStatus { get; set; }
         public List<DoctorCertificateDto> Certificates { get; set; } = new();
+        public List<DoctorAvailabilityDto> Availabilities { get; set; } = new();
     }
 }

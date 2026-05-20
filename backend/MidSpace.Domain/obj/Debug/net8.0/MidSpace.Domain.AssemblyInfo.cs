@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MidSpace.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8654cd2257de9e1001cde342c0f71c5f3732a81f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MidSpace.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MidSpace.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

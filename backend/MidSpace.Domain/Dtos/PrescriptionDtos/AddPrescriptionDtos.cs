@@ -8,5 +8,6 @@ namespace MidSpace.Domain.Dtos.PrescriptionDtos
         public int? DoctorId { get; set; }
         public int? MedicalRecordId { get; set; }
         public DateTime? Date { get; set; }
+        public List<AddPrescriptionItemDtos>? Items { get; set; }
     }
 }

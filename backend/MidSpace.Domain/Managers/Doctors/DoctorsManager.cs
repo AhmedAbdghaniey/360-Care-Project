@@ -25,6 +25,8 @@ namespace MidSpace.Domain.Managers.Doctors
                 ConsultationFee = dto.ConsultationFee
             };
 
+            doctor.AvailabilityStatus = "Available";
+
             await _repo.AddAsync(doctor);
         }
 
@@ -39,6 +41,7 @@ namespace MidSpace.Domain.Managers.Doctors
             doctor.ExperienceYears = dto.ExperienceYears;
             doctor.Bio = dto.Bio;
             doctor.ConsultationFee = dto.ConsultationFee;
+            doctor.AvailabilityStatus = dto.AvailabilityStatus ?? doctor.AvailabilityStatus;
 
             await _repo.Update(doctor);
         }
@@ -72,6 +75,7 @@ namespace MidSpace.Domain.Managers.Doctors
             doctor.ExperienceYears = dto.ExperienceYears;
             doctor.Bio = dto.Bio;
             doctor.ConsultationFee = dto.ConsultationFee;
+            doctor.AvailabilityStatus = dto.AvailabilityStatus ?? doctor.AvailabilityStatus;
 
             await _repo.Update(doctor);
         }
@@ -102,6 +106,14 @@ namespace MidSpace.Domain.Managers.Doctors
                 CertificateName = c.CertificateName,
                 IssuingOrganization = c.IssuingOrganization,
                 IssueDate = c.IssueDate
+            }).ToList() ?? new(),
+            Availabilities = d.Availabilities?.Where(a => !a.IsDeleted).Select(a => new DoctorAvailabilityDto
+            {
+                Id = a.Id,
+                DayOfWeek = a.DayOfWeek.ToString(),
+                StartTime = a.StartTime.ToString(@"hh\:mm"),
+                EndTime = a.EndTime.ToString(@"hh\:mm"),
+                IsAvailable = a.IsAvailable
             }).ToList() ?? new()
         };
     }

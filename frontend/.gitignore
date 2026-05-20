@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Visual Studio
+.vs/
+
+# .NET build folders
+bin/
+obj/

@@ -2,7 +2,7 @@ import { NavLink, useLocation } from 'react-router-dom'
 import {
   FiHome, FiUser, FiCalendar, FiBriefcase, FiMessageSquare,
   FiFileText, FiActivity, FiStar, FiSettings, FiUsers,
-  FiLogOut, FiMenu, FiX, FiCrosshair, FiRss,
+  FiLogOut, FiMenu, FiX, FiCrosshair, FiRss, FiClock,
 } from 'react-icons/fi'
 import { useAuth } from '../../context/AuthContext'
 
@@ -12,21 +12,26 @@ const roleNavMap = {
     { name: 'Dashboard', path: '/dashboard', icon: FiHome },
     { name: 'Messages', path: '/messages', icon: FiMessageSquare },
     { name: 'Profile', path: '/profile', icon: FiUser },
-    { name: 'Doctors Directory', path: '/doctors', icon: FiStar },
   ],
   DOCTOR: [
+    { name: 'Doctors Directory', path: '/doctors', icon: FiStar },
+    { name: 'Appointments', path: '/appointments', icon: FiCalendar },
+    { name: 'My Availability', path: '/appointments/availability', icon: FiClock },
     { name: 'Jobs', path: '/jobs', icon: FiBriefcase },
     { name: 'My Applications', path: '/jobs/applications', icon: FiFileText },
   ],
   PATIENT: [
     { name: 'My Doctors', path: '/doctors', icon: FiUser },
+    { name: 'Appointments', path: '/appointments', icon: FiCalendar },
   ],
   HOSPITAL: [
+    { name: 'Doctors', path: '/doctors', icon: FiUsers },
     { name: 'My Jobs', path: '/jobs', icon: FiBriefcase },
     { name: 'Applications', path: '/jobs/applications', icon: FiFileText },
-    { name: 'Doctors', path: '/doctors', icon: FiUsers },
   ],
   ADMIN: [
+    { name: 'Doctors', path: '/doctors', icon: FiUsers },
+    { name: 'Appointments', path: '/appointments', icon: FiCalendar },
     { name: 'Users', path: '/dashboard/admin', icon: FiUsers },
   ],
 }

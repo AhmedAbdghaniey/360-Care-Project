@@ -80,14 +80,14 @@ export default function AddPrescription() {
     setSubmitting(true)
     try {
       const payload = {
-        patient: selectedPatient._id || selectedPatient.id,
-        doctor: doctorId,
-        medicalRecord: medicalRecordId || undefined,
+        patientId: Number(selectedPatient._id || selectedPatient.id),
+        doctorId: Number(doctorId),
+        medicalRecordId: medicalRecordId ? Number(medicalRecordId) : undefined,
         date,
-        medications: medications
+        items: medications
           .filter((m) => m.drugName.trim())
           .map((m) => ({
-            drugName: m.drugName,
+            medicationName: m.drugName,
             dosage: m.dosage,
             frequency: m.frequency,
             duration: m.duration,

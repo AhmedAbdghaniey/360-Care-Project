@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RxACgbTyuXE=",
+  "dgSpecHash": "SBNBpw7nDmI=",
   "success": true,
-  "projectFilePath": "D:\\.gig\\New folder\\backend\\MidSpace.Data\\MidSpace.Data.csproj",
+  "projectFilePath": "D:\\DEPI\\midSpace\\backend\\MidSpace.Data\\MidSpace.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sw\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\sw\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

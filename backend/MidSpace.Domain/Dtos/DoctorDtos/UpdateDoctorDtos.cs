@@ -18,5 +18,7 @@ namespace MidSpace.Domain.Dtos.DoctorDtos
 
         [Range(0, 100000)]
         public decimal ConsultationFee { get; set; }
+
+        public string? AvailabilityStatus { get; set; }
     }
 }

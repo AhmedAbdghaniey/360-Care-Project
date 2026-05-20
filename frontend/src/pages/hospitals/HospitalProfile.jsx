@@ -42,17 +42,54 @@ export default function HospitalProfile() {
       {/* Profile Section */}
       <div className="relative px-6 pb-6">
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between -mt-16 mb-6">
-          <div className="flex flex-col sm:flex-row sm:items-end gap-4">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
             <div className="w-32 h-32 rounded-full border-4 border-white bg-gradient-to-br from-teal-400 to-emerald-600 flex items-center justify-center text-4xl font-bold text-white shadow-xl shrink-0">
               <FiHome className="h-10 w-10" />
             </div>
-            <div className="pb-1">
-              <h1 className="text-2xl font-bold text-gray-900">{hospital.hospitalName}</h1>
+            {/* <div className="pt-6 sm:pt-0">
+              <h1 className="text-3xl font-bold text-gray-900 leading-tight break-words">{hospital.hospitalName}</h1>
               {hospital.hospitalAddress && (
                 <p className="text-sm text-gray-400 flex items-center gap-1 mt-1">
                   <FiMapPin className="h-3.5 w-3.5" />{hospital.hospitalAddress}
                 </p>
               )}
+            </div> */}
+             <div className="pt-6 sm:pt-0 space-y-2">
+
+              {/* Name */}
+              <div className="relative inline-block px-5 py-3 rounded-2xl bg-white/40 backdrop-blur-md border border-white/30 shadow-md">
+                <h1 className="text-2xl sm:text-2xl font-bold text-cyan-800 tracking-tight">
+                  {name}
+                </h1>
+                {/* Specialization badge */}
+                <div className="inline-flex items-center px-3 py-1 rounded-full text-cyan-700 text-sm font-medium w-fit">
+                  {specialization}
+                </div>
+                <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-cyan-100/40 to-blue-100/40 blur-xl -z-10" />
+              </div>
+              {/* Info row */}
+              <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-gray-500 mt-2">
+
+                {experienceYears > 0 && (
+                  <span className="flex items-center gap-1.5">
+                    <FiBriefcase className="h-4 w-4 text-cyan-600" />
+                    <span className="font-medium text-gray-600">
+                      {experienceYears} yrs experience
+                    </span>
+                  </span>
+                )}
+
+                {email && (
+                  <a
+                    href={`mailto:${email}`}
+                    className="flex items-center gap-1.5 text-cyan-600 hover:text-cyan-700 hover:underline transition"
+                  >
+                    <FiMail className="h-4 w-4" />
+                    <span className="truncate max-w-[220px]">{email}</span>
+                  </a>
+                )}
+
+              </div>
             </div>
           </div>
         </div>

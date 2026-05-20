@@ -1,3 +1,4 @@
+using MidSpace.Data.Models.user;
 using MidSpace.Domain.Dtos.AppointmentDtos;
 namespace MidSpace.Domain.Managers.Appointments
 {
@@ -8,5 +9,6 @@ namespace MidSpace.Domain.Managers.Appointments
         Task<object> GetMyAppointmentsAsync(int userId, string role);
         Task UpdateAppointmentAsync(int id, UpdateAppointmentDtos dto);
         Task<bool> DeleteAppointmentAsync(int id);
+        Task<Patient?> GetPatientByUserIdAsync(int userId);
     }
 }

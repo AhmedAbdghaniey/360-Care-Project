@@ -5,8 +5,8 @@ namespace MidSpace.Domain.Dtos.JobOpportunityDtos
 {
     public class UpdateJobOpportunityDtos
     {
-        [Required, StringLength(200)]
-        public string JobTitle { get; set; } = string.Empty;
+        [StringLength(200)]
+        public string? JobTitle { get; set; }
 
         [StringLength(2000)]
         public string? JobDescription { get; set; }

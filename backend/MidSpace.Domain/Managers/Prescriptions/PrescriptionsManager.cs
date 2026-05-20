@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using MidSpace.Data.Data;
 using MidSpace.Domain.Dtos.PrescriptionDtos;
 using MidSpace.Data.Models.Appointments_Medical;
 using MidSpace.Data.Repository.PrescriptionRepo;
@@ -7,10 +9,12 @@ namespace MidSpace.Domain.Managers.Prescriptions
     public class PrescriptionsManager : IPrescriptionsManager
     {
         private readonly IPrescriptionRepo _repo;
+        private readonly ApplicationDbContext _context;
 
-        public PrescriptionsManager(IPrescriptionRepo repo)
+        public PrescriptionsManager(IPrescriptionRepo repo, ApplicationDbContext context)
         {
             _repo = repo;
+            _context = context;
         }
 
         public async Task AddPrescriptionAsync(AddPrescriptionDtos dto)
@@ -24,6 +28,24 @@ namespace MidSpace.Domain.Managers.Prescriptions
             };
 
             await _repo.AddAsync(prescription);
+
+            if (dto.Items != null && dto.Items.Count > 0)
+            {
+                foreach (var itemDto in dto.Items)
+                {
+                    var item = new PrescriptionItem
+                    {
+                        PrescriptionId = prescription.Id,
+                        MedicationName = itemDto.MedicationName,
+                        Dosage = itemDto.Dosage,
+                        Frequency = itemDto.Frequency,
+                        Duration = itemDto.Duration,
+                        Instructions = itemDto.Instructions
+                    };
+                    _context.PrescriptionItems.Add(item);
+                }
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task<List<GetPrescriptionDtos>> GetAllPrescriptionsAsync()

@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation, Link } from 'react-router-dom'
 import { FiMenu, FiUser, FiSettings, FiLogOut, FiCrosshair } from 'react-icons/fi'
 import { useAuth } from '../../context/AuthContext'
 
@@ -11,11 +11,10 @@ const pageTitles = {
   '/patients': 'My Patients',
   '/appointments': 'Appointments',
   '/medical-records': 'Medical Records',
-  '/prescriptions': 'Prescriptions',
+  '/recommendations': 'Recommendations',
   '/jobs': 'Jobs',
-  '/applications': 'Applications',
-  '/users': 'Users',
-  '/my-doctors': 'My Doctors',
+  '/jobs/applications': 'Applications',
+  '/feed': 'Feed',
 }
 
 export default function Navbar({ onMenuToggle }) {
@@ -79,18 +78,20 @@ export default function Navbar({ onMenuToggle }) {
                   {user?.role || 'user'}
                 </span>
               </div>
-              <a
-                href="/profile"
+              <Link
+                to="/profile"
+                onClick={() => setDropdownOpen(false)}
                 className="flex items-center gap-3 px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 transition-colors"
               >
                 <FiUser className="h-4 w-4" /> Profile
-              </a>
-              <a
-                href="/settings"
+              </Link>
+              <Link
+                to="/profile"
+                onClick={() => setDropdownOpen(false)}
                 className="flex items-center gap-3 px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 transition-colors"
               >
                 <FiSettings className="h-4 w-4" /> Settings
-              </a>
+              </Link>
               <hr className="my-1 border-gray-100" />
               <button
                 onClick={logout}

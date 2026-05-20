@@ -55,8 +55,9 @@ export default function MyJobs() {
 
   const handleStatusUpdate = async (jobId, status) => {
     setStatusUpdating(jobId)
+    const job = jobs.find((j) => (j._id || j.id) === jobId)
     try {
-      await updateJob({ id: jobId, data: { status } })
+      await updateJob({ id: jobId, data: { jobTitle: job?.title || job?.position || '', jobOpportunityStatus: status } })
       toast.success(`Status updated to ${status}`)
     } catch (err) {
       toast.error(err?.response?.data?.message || 'Failed to update status')

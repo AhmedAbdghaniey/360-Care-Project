@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MidSpace.Domain.Dtos.AppointmentDtos;
 using MidSpace.Domain.Managers.Appointments;
+using MidSpace.Data.Models.user;
 
 namespace MidSpace.API.Controllers
 {
@@ -48,12 +49,21 @@ namespace MidSpace.API.Controllers
 
             if (roleClaim == "patient")
             {
-                // PatientId will be resolved from claims in a more complete implementation
-                // For now the DTO carries it
+                var patient = await _manager.GetPatientByUserIdAsync(userId);
+                if (patient == null)
+                    return NotFound(new { message = "Patient profile not found" });
+                dto.PatientId = patient.Id;
             }
 
-            await _manager.AddAppointmentAsync(dto);
-            return Ok(new { message = "Appointment added successfully" });
+            try
+            {
+                await _manager.AddAppointmentAsync(dto);
+                return Ok(new { message = "Appointment added successfully" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
 
         [HttpGet]

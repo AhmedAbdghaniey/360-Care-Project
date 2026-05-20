@@ -74,10 +74,10 @@ export default function AddMedicalRecord({ record, onSuccess }) {
     setSubmitting(true)
     try {
       const payload = {
-        patient: form.patient,
-        doctor: form.doctor,
-        appointment: form.appointment || undefined,
-        symptoms: form.symptoms.split(',').map((s) => s.trim()).filter(Boolean),
+        patientId: form.patient ? Number(form.patient) : undefined,
+        doctorId: form.doctor ? Number(form.doctor) : undefined,
+        appointmentId: form.appointment ? Number(form.appointment) : undefined,
+        symptoms: form.symptoms,
         diagnosis: form.diagnosis,
         treatmentPlan: form.treatmentPlan,
         visitType: form.visitType,

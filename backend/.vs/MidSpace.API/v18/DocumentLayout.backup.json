@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sw\\Downloads\\midspace\\New folder\\backend\\",
+  "WorkspaceRootPath": "D:\\DEPI\\midSpace\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D21C7FB-2813-4D7C-9C97-02DFE31A8478}|MidSpace.API\\MidSpace.API.csproj|c:\\users\\sw\\downloads\\midspace\\new folder\\backend\\midspace.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D21C7FB-2813-4D7C-9C97-02DFE31A8478}|MidSpace.API\\MidSpace.API.csproj|d:\\depi\\midspace\\backend\\midspace.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D21C7FB-2813-4D7C-9C97-02DFE31A8478}|MidSpace.API\\MidSpace.API.csproj|solutionrelative:midspace.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D21C7FB-2813-4D7C-9C97-02DFE31A8478}|MidSpace.API\\MidSpace.API.csproj|c:\\users\\sw\\downloads\\midspace\\new folder\\backend\\midspace.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D21C7FB-2813-4D7C-9C97-02DFE31A8478}|MidSpace.API\\MidSpace.API.csproj|d:\\depi\\midspace\\backend\\midspace.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D21C7FB-2813-4D7C-9C97-02DFE31A8478}|MidSpace.API\\MidSpace.API.csproj|solutionrelative:midspace.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBCC2FCC-D8AF-49C2-8A04-384A30C37DFD}|MidSpace.Domain\\MidSpace.Domain.csproj|c:\\users\\sw\\downloads\\midspace\\new folder\\backend\\midspace.domain\\managers\\auth\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EBCC2FCC-D8AF-49C2-8A04-384A30C37DFD}|MidSpace.Domain\\MidSpace.Domain.csproj|d:\\depi\\midspace\\backend\\midspace.domain\\managers\\auth\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBCC2FCC-D8AF-49C2-8A04-384A30C37DFD}|MidSpace.Domain\\MidSpace.Domain.csproj|solutionrelative:midspace.domain\\managers\\auth\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7604C5F7-D383-433A-880B-FA74D5474DE3}|MidSpace.Data\\MidSpace.Data.csproj|c:\\users\\sw\\downloads\\midspace\\new folder\\backend\\midspace.data\\repository\\appointmentrepo\\appointmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7604C5F7-D383-433A-880B-FA74D5474DE3}|MidSpace.Data\\MidSpace.Data.csproj|d:\\depi\\midspace\\backend\\midspace.data\\repository\\appointmentrepo\\appointmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7604C5F7-D383-433A-880B-FA74D5474DE3}|MidSpace.Data\\MidSpace.Data.csproj|solutionrelative:midspace.data\\repository\\appointmentrepo\\appointmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D21C7FB-2813-4D7C-9C97-02DFE31A8478}|MidSpace.API\\MidSpace.API.csproj|c:\\users\\sw\\downloads\\midspace\\new folder\\backend\\midspace.api\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D21C7FB-2813-4D7C-9C97-02DFE31A8478}|MidSpace.API\\MidSpace.API.csproj|d:\\depi\\midspace\\backend\\midspace.api\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D21C7FB-2813-4D7C-9C97-02DFE31A8478}|MidSpace.API\\MidSpace.API.csproj|solutionrelative:midspace.api\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D21C7FB-2813-4D7C-9C97-02DFE31A8478}|MidSpace.API\\MidSpace.API.csproj|c:\\users\\sw\\downloads\\midspace\\new folder\\backend\\midspace.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D21C7FB-2813-4D7C-9C97-02DFE31A8478}|MidSpace.API\\MidSpace.API.csproj|d:\\depi\\midspace\\backend\\midspace.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D21C7FB-2813-4D7C-9C97-02DFE31A8478}|MidSpace.API\\MidSpace.API.csproj|solutionrelative:midspace.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -56,11 +56,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sw\\Downloads\\midspace\\New folder\\backend\\MidSpace.API\\Program.cs",
+              "DocumentMoniker": "D:\\DEPI\\midSpace\\backend\\MidSpace.API\\Program.cs",
               "RelativeDocumentMoniker": "MidSpace.API\\Program.cs",
-              "ToolTip": "C:\\Users\\sw\\Downloads\\midspace\\New folder\\backend\\MidSpace.API\\Program.cs",
+              "ToolTip": "D:\\DEPI\\midSpace\\backend\\MidSpace.API\\Program.cs",
               "RelativeToolTip": "MidSpace.API\\Program.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAAAIMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAIUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:13:17.971Z",
               "EditorCaption": ""
@@ -69,9 +69,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "IAuthManager.cs",
-              "DocumentMoniker": "C:\\Users\\sw\\Downloads\\midspace\\New folder\\backend\\MidSpace.Domain\\Managers\\Auth\\IAuthManager.cs",
+              "DocumentMoniker": "D:\\DEPI\\midSpace\\backend\\MidSpace.Domain\\Managers\\Auth\\IAuthManager.cs",
               "RelativeDocumentMoniker": "MidSpace.Domain\\Managers\\Auth\\IAuthManager.cs",
-              "ToolTip": "C:\\Users\\sw\\Downloads\\midspace\\New folder\\backend\\MidSpace.Domain\\Managers\\Auth\\IAuthManager.cs",
+              "ToolTip": "D:\\DEPI\\midSpace\\backend\\MidSpace.Domain\\Managers\\Auth\\IAuthManager.cs",
               "RelativeToolTip": "MidSpace.Domain\\Managers\\Auth\\IAuthManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -81,9 +81,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\sw\\Downloads\\midspace\\New folder\\backend\\MidSpace.API\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "D:\\DEPI\\midSpace\\backend\\MidSpace.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "MidSpace.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\sw\\Downloads\\midspace\\New folder\\backend\\MidSpace.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\DEPI\\midSpace\\backend\\MidSpace.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "MidSpace.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,9 +93,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "AppointmentRepo.cs",
-              "DocumentMoniker": "C:\\Users\\sw\\Downloads\\midspace\\New folder\\backend\\MidSpace.Data\\Repository\\AppointmentRepo\\AppointmentRepo.cs",
+              "DocumentMoniker": "D:\\DEPI\\midSpace\\backend\\MidSpace.Data\\Repository\\AppointmentRepo\\AppointmentRepo.cs",
               "RelativeDocumentMoniker": "MidSpace.Data\\Repository\\AppointmentRepo\\AppointmentRepo.cs",
-              "ToolTip": "C:\\Users\\sw\\Downloads\\midspace\\New folder\\backend\\MidSpace.Data\\Repository\\AppointmentRepo\\AppointmentRepo.cs",
+              "ToolTip": "D:\\DEPI\\midSpace\\backend\\MidSpace.Data\\Repository\\AppointmentRepo\\AppointmentRepo.cs",
               "RelativeToolTip": "MidSpace.Data\\Repository\\AppointmentRepo\\AppointmentRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -105,9 +105,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "AppointmentController.cs",
-              "DocumentMoniker": "C:\\Users\\sw\\Downloads\\midspace\\New folder\\backend\\MidSpace.API\\Controllers\\AppointmentController.cs",
+              "DocumentMoniker": "D:\\DEPI\\midSpace\\backend\\MidSpace.API\\Controllers\\AppointmentController.cs",
               "RelativeDocumentMoniker": "MidSpace.API\\Controllers\\AppointmentController.cs",
-              "ToolTip": "C:\\Users\\sw\\Downloads\\midspace\\New folder\\backend\\MidSpace.API\\Controllers\\AppointmentController.cs",
+              "ToolTip": "D:\\DEPI\\midSpace\\backend\\MidSpace.API\\Controllers\\AppointmentController.cs",
               "RelativeToolTip": "MidSpace.API\\Controllers\\AppointmentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -117,9 +117,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\sw\\Downloads\\midspace\\New folder\\backend\\MidSpace.API\\Controllers\\AdminController.cs",
+              "DocumentMoniker": "D:\\DEPI\\midSpace\\backend\\MidSpace.API\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "MidSpace.API\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\sw\\Downloads\\midspace\\New folder\\backend\\MidSpace.API\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\DEPI\\midSpace\\backend\\MidSpace.API\\Controllers\\AdminController.cs",
               "RelativeToolTip": "MidSpace.API\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

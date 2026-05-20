@@ -177,7 +177,7 @@ namespace MidSpace.Domain.Managers.JobOpportunities
             if (jobOpportunity == null)
                 throw new Exception("Job opportunity not found");
 
-            jobOpportunity.JobTitle = dto.JobTitle;
+            jobOpportunity.JobTitle = dto.JobTitle ?? jobOpportunity.JobTitle;
             jobOpportunity.JobDescription = dto.JobDescription;
             jobOpportunity.JobLocation = dto.JobLocation;
             jobOpportunity.RequiredSpecialization = dto.RequiredSpecialization;

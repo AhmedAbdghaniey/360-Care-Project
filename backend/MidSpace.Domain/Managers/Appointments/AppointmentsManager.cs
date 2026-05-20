@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using MidSpace.Data.Data;
 using MidSpace.Domain.Dtos.AppointmentDtos;
 using MidSpace.Data.Models.Appointments_Medical;
+using MidSpace.Data.Models.user;
 using MidSpace.Data.Repository.AppointmentRepository;
 
 namespace MidSpace.Domain.Managers.Appointments
@@ -19,12 +20,39 @@ namespace MidSpace.Domain.Managers.Appointments
 
         public async Task AddAppointmentAsync(AddAppointmentDtos dto)
         {
+            if (dto.AppointmentDate == null)
+                throw new Exception("Appointment date is required");
+
+            if (dto.DoctorId == null)
+                throw new Exception("Doctor is required");
+
+            var dayOfWeek = dto.AppointmentDate.Value.DayOfWeek;
+            var time = dto.AppointmentDate.Value.TimeOfDay;
+
+            var availabilities = await _context.DoctorAvailabilities
+                .Where(a => a.DoctorID == dto.DoctorId && a.DayOfWeek == dayOfWeek && a.IsAvailable && !a.IsDeleted)
+                .ToListAsync();
+
+            var isAvailable = availabilities.Any(a => time >= a.StartTime && time <= a.EndTime);
+
+            if (!isAvailable)
+                throw new Exception("The doctor is not available at the selected time. Please choose a time within the doctor's working hours.");
+
+            var hasConflict = await _context.Appointments
+                .AnyAsync(a => a.DoctorId == dto.DoctorId
+                    && a.AppointmentDate == dto.AppointmentDate
+                    && a.Status != "Cancelled"
+                    && !a.IsDeleted);
+
+            if (hasConflict)
+                throw new Exception("This time slot is already booked. Please choose another time.");
+
             var appointment = new Appointment
             {
                 PatientId = dto.PatientId,
                 DoctorId = dto.DoctorId,
                 AppointmentDate = dto.AppointmentDate,
-                Status = dto.Status,
+                Status = dto.Status ?? "Scheduled",
                 Notes = dto.Notes,
                 ConsultationFeeAtBooking = dto.ConsultationFeeAtBooking,
                 CreatedAt = DateTime.UtcNow
@@ -68,13 +96,14 @@ namespace MidSpace.Domain.Managers.Appointments
                         specialization = a.Doctor != null ? a.Doctor.Specialization : "",
                         date = a.AppointmentDate,
                         status = a.Status ?? "Scheduled",
-                        notes = a.Notes
+                        notes = a.Notes,
+                        consultationFee = a.ConsultationFeeAtBooking
                     })
                     .ToListAsync();
             }
             else if (role == "doctor")
             {
-                var doctor = await _context.Doctors.FirstOrDefaultAsync(d => d.UserId == userId);
+                var doctor = await _context.Doctors.Include(d => d.User).FirstOrDefaultAsync(d => d.UserId == userId);
                 if (doctor == null) throw new Exception("Doctor not found");
 
                 return await _context.Appointments
@@ -86,7 +115,8 @@ namespace MidSpace.Domain.Managers.Appointments
                         patientName = a.Patient != null ? a.Patient.User.FullName : "Unknown",
                         date = a.AppointmentDate,
                         status = a.Status ?? "Scheduled",
-                        notes = a.Notes
+                        notes = a.Notes,
+                        consultationFee = a.ConsultationFeeAtBooking
                     })
                     .ToListAsync();
             }
@@ -116,6 +146,11 @@ namespace MidSpace.Domain.Managers.Appointments
             if (appointment == null) return false;
             await _repo.Delete(id);
             return true;
+        }
+
+        public async Task<Patient?> GetPatientByUserIdAsync(int userId)
+        {
+            return await _context.Patients.FirstOrDefaultAsync(p => p.UserId == userId);
         }
     }
 }

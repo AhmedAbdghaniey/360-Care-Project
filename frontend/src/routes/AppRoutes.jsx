@@ -36,6 +36,7 @@ import MyApplications from '../pages/jobs/MyApplications';
 import AppointmentList from '../pages/appointments/AppointmentList';
 import BookAppointment from '../pages/appointments/BookAppointment';
 import AppointmentCalendar from '../pages/appointments/AppointmentCalendar';
+import DoctorAvailability from '../pages/appointments/DoctorAvailability';
 
 import MedicalRecordsList from '../pages/medical/MedicalRecordsList';
 import MedicalRecordDetail from '../pages/medical/MedicalRecordDetail';
@@ -104,6 +105,7 @@ export default function AppRoutes() {
       </Route>
 
       <Route path="/hospitals" element={<ProtectedRoute><DashboardLayout /></ProtectedRoute>}>
+        <Route index element={<Navigate to="me" replace />} />
         <Route path="me" element={<HospitalMyProfile />} />
         <Route path=":id" element={<HospitalProfile />} />
       </Route>
@@ -121,6 +123,7 @@ export default function AppRoutes() {
         <Route index element={<AppointmentList />} />
         <Route path="book" element={<BookAppointment />} />
         <Route path="calendar" element={<AppointmentCalendar />} />
+        <Route path="availability" element={<DoctorAvailability />} />
       </Route>
 
       <Route path="/medical-records" element={<ProtectedRoute><DashboardLayout /></ProtectedRoute>}>

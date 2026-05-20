@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.gig\\New folder\\backend\\MidSpace.Domain\\MidSpace.Domain.csproj": {}
+    "D:\\DEPI\\midSpace\\backend\\MidSpace.Domain\\MidSpace.Domain.csproj": {}
   },
   "projects": {
-    "D:\\.gig\\New folder\\backend\\MidSpace.Data\\MidSpace.Data.csproj": {
+    "D:\\DEPI\\midSpace\\backend\\MidSpace.Data\\MidSpace.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.gig\\New folder\\backend\\MidSpace.Data\\MidSpace.Data.csproj",
+        "projectUniqueName": "D:\\DEPI\\midSpace\\backend\\MidSpace.Data\\MidSpace.Data.csproj",
         "projectName": "MidSpace.Data",
-        "projectPath": "D:\\.gig\\New folder\\backend\\MidSpace.Data\\MidSpace.Data.csproj",
+        "projectPath": "D:\\DEPI\\midSpace\\backend\\MidSpace.Data\\MidSpace.Data.csproj",
         "packagesPath": "C:\\Users\\sw\\.nuget\\packages\\",
-        "outputPath": "D:\\.gig\\New folder\\backend\\MidSpace.Data\\obj\\",
+        "outputPath": "D:\\DEPI\\midSpace\\backend\\MidSpace.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\.gig\\New folder\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj": {
-                "projectPath": "D:\\.gig\\New folder\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj"
+              "D:\\DEPI\\midSpace\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj": {
+                "projectPath": "D:\\DEPI\\midSpace\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj"
               }
             }
           }
@@ -101,14 +101,14 @@
         }
       }
     },
-    "D:\\.gig\\New folder\\backend\\MidSpace.Domain\\MidSpace.Domain.csproj": {
+    "D:\\DEPI\\midSpace\\backend\\MidSpace.Domain\\MidSpace.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.gig\\New folder\\backend\\MidSpace.Domain\\MidSpace.Domain.csproj",
+        "projectUniqueName": "D:\\DEPI\\midSpace\\backend\\MidSpace.Domain\\MidSpace.Domain.csproj",
         "projectName": "MidSpace.Domain",
-        "projectPath": "D:\\.gig\\New folder\\backend\\MidSpace.Domain\\MidSpace.Domain.csproj",
+        "projectPath": "D:\\DEPI\\midSpace\\backend\\MidSpace.Domain\\MidSpace.Domain.csproj",
         "packagesPath": "C:\\Users\\sw\\.nuget\\packages\\",
-        "outputPath": "D:\\.gig\\New folder\\backend\\MidSpace.Domain\\obj\\",
+        "outputPath": "D:\\DEPI\\midSpace\\backend\\MidSpace.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -130,11 +130,11 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\.gig\\New folder\\backend\\MidSpace.Data\\MidSpace.Data.csproj": {
-                "projectPath": "D:\\.gig\\New folder\\backend\\MidSpace.Data\\MidSpace.Data.csproj"
+              "D:\\DEPI\\midSpace\\backend\\MidSpace.Data\\MidSpace.Data.csproj": {
+                "projectPath": "D:\\DEPI\\midSpace\\backend\\MidSpace.Data\\MidSpace.Data.csproj"
               },
-              "D:\\.gig\\New folder\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj": {
-                "projectPath": "D:\\.gig\\New folder\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj"
+              "D:\\DEPI\\midSpace\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj": {
+                "projectPath": "D:\\DEPI\\midSpace\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj"
               }
             }
           }
@@ -197,14 +197,14 @@
         }
       }
     },
-    "D:\\.gig\\New folder\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj": {
+    "D:\\DEPI\\midSpace\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.gig\\New folder\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj",
+        "projectUniqueName": "D:\\DEPI\\midSpace\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj",
         "projectName": "MidSpace.InfraStructure",
-        "projectPath": "D:\\.gig\\New folder\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj",
+        "projectPath": "D:\\DEPI\\midSpace\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj",
         "packagesPath": "C:\\Users\\sw\\.nuget\\packages\\",
-        "outputPath": "D:\\.gig\\New folder\\backend\\MidSpace.InfraStructure\\obj\\",
+        "outputPath": "D:\\DEPI\\midSpace\\backend\\MidSpace.InfraStructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

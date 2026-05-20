@@ -76,7 +76,7 @@ export default function DoctorProfile() {
           <div className="h-8 w-64 bg-gray-200 rounded animate-pulse" />
           <div className="h-4 w-40 bg-gray-200 rounded animate-pulse" />
           <div className="grid grid-cols-4 gap-4 mt-6">
-            {[1,2,3,4].map(i => <div key={i} className="h-24 bg-gray-200 rounded-xl animate-pulse" />)}
+            {[1, 2, 3, 4].map(i => <div key={i} className="h-24 bg-gray-200 rounded-xl animate-pulse" />)}
           </div>
         </div>
       </div>
@@ -110,16 +110,54 @@ export default function DoctorProfile() {
       {/* Profile Section - overlaps cover */}
       <div className="relative px-6 pb-6">
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between -mt-16 mb-6">
-          <div className="flex flex-col sm:flex-row sm:items-end gap-4">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
             <div className="w-32 h-32 rounded-full border-4 border-white bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center text-4xl font-bold text-white shadow-xl shrink-0">
               {getInitials(name)}
             </div>
-            <div className="pb-1">
-              <h1 className="text-2xl font-bold text-gray-900">{name}</h1>
-              <p className="text-gray-500 font-medium">{specialization}</p>
+            {/* <div className="pt-6 sm:pt-0">
+              <h1 className="text-3xl font-bold text-gray-900 leading-tight break-words">{name}</h1>
+              <p className="text-gray-500 font-medium mt-1">{specialization}</p>
               <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mt-1 text-sm text-gray-400">
                 {experienceYears > 0 && <span className="flex items-center gap-1"><FiBriefcase className="h-3.5 w-3.5" />{experienceYears} yrs</span>}
                 {email && <a href={`mailto:${email}`} className="flex items-center gap-1 text-cyan-600 hover:underline"><FiMail className="h-3.5 w-3.5" />{email}</a>}
+              </div>
+            </div> */}
+
+            <div className="pt-6 sm:pt-0 space-y-2">
+
+              {/* Name */}
+              <div className="relative inline-block px-5 py-3 rounded-2xl bg-white/40 backdrop-blur-md border border-white/30 shadow-md">
+                <h1 className="text-2xl sm:text-2xl font-bold text-cyan-800 tracking-tight">
+                  {name}
+                </h1>
+                {/* Specialization badge */}
+                <div className="inline-flex items-center px-3 py-1 rounded-full text-cyan-700 text-sm font-medium w-fit">
+                  {specialization}
+                </div>
+                <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-cyan-100/40 to-blue-100/40 blur-xl -z-10" />
+              </div>
+              {/* Info row */}
+              <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-gray-500 mt-2">
+
+                {experienceYears > 0 && (
+                  <span className="flex items-center gap-1.5">
+                    <FiBriefcase className="h-4 w-4 text-cyan-600" />
+                    <span className="font-medium text-gray-600">
+                      {experienceYears} yrs experience
+                    </span>
+                  </span>
+                )}
+
+                {email && (
+                  <a
+                    href={`mailto:${email}`}
+                    className="flex items-center gap-1.5 text-cyan-600 hover:text-cyan-700 hover:underline transition"
+                  >
+                    <FiMail className="h-4 w-4" />
+                    <span className="truncate max-w-[220px]">{email}</span>
+                  </a>
+                )}
+
               </div>
             </div>
           </div>
@@ -133,11 +171,10 @@ export default function DoctorProfile() {
             </button>
             <button
               onClick={handleToggleFollow}
-              className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
-                isFollowing
-                  ? 'bg-gray-100 text-gray-600 hover:bg-gray-200 border border-gray-200'
-                  : 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md hover:shadow-lg'
-              }`}
+              className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all ${isFollowing
+                ? 'bg-gray-100 text-gray-600 hover:bg-gray-200 border border-gray-200'
+                : 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md hover:shadow-lg'
+                }`}
             >
               {isFollowing ? <FiUserCheck className="h-4 w-4" /> : <FiUserPlus className="h-4 w-4" />}
               {isFollowing ? 'Following' : 'Follow'}

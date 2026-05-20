@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { FiSearch, FiStar, FiClock, FiDollarSign } from 'react-icons/fi'
+import { FiSearch, FiStar, FiClock, FiDollarSign, FiCalendar, FiMessageSquare } from 'react-icons/fi'
 import { useDoctors } from '../../hooks/useDoctors'
 import LoadingSkeleton from '../../components/ui/LoadingSkeleton'
 import EmptyState from '../../components/ui/EmptyState'
@@ -175,6 +175,21 @@ export default function DoctorList() {
                     {doc.doctorScore.toFixed(1)}
                   </span>
                 )}
+              </div>
+
+              <div className="mt-4 flex gap-2">
+                <button
+                  onClick={(e) => { e.stopPropagation(); navigate('/appointments/book', { state: { doctor: doc } }) }}
+                  className="flex items-center gap-1.5 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 px-3 py-2 text-xs font-semibold text-white shadow-sm transition-all hover:shadow-md"
+                >
+                  <FiCalendar className="h-3.5 w-3.5" /> Book
+                </button>
+                <button
+                  onClick={(e) => { e.stopPropagation(); navigate(`/messages?userId=${doc.userId}`) }}
+                  className="flex items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-3 py-2 text-xs font-semibold text-gray-600 shadow-sm transition-all hover:border-cyan-300 hover:text-cyan-600 hover:shadow-md"
+                >
+                  <FiMessageSquare className="h-3.5 w-3.5" /> Message
+                </button>
               </div>
             </motion.div>
           ))}

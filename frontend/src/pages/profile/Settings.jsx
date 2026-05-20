@@ -122,26 +122,38 @@ export default function Settings() {
       {/* Profile Section */}
       <div className="relative px-6 pb-6">
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between -mt-16 mb-8">
-          <div className="flex flex-col sm:flex-row sm:items-end gap-4">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
             <div className="w-32 h-32 rounded-full border-4 border-white bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center text-4xl font-bold text-white shadow-xl shrink-0">
               {initials}
             </div>
-            <div className="pb-1">
-              <h1 className="text-2xl font-bold text-gray-900">{name}</h1>
-              <p className="text-gray-500 font-medium">{email}</p>
-              <span className={`mt-1 inline-block rounded-full px-3 py-0.5 text-xs font-semibold uppercase ${roleBadge[role] || 'bg-gray-100 text-gray-600'}`}>
-                {role}
-              </span>
-            </div>
+           <div className="pt-5 sm:pt-0">
+  <div className="relative inline-block px-6 py-3 rounded-2xl overflow-hidden border border-white/20 shadow-2xl">
+    
+    <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/30 via-blue-500/30 to-indigo-500/30 backdrop-blur-xl"></div>
+
+    <div className="relative">
+      <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-wide drop-shadow-lg">
+        {name}
+      </h1>
+    </div>
+
+  </div>
+</div>
+            {/* <div className="pt-6 sm:pt-0">
+              <div className="inline-block px-5 py-2 rounded-2xl bg-black/30 backdrop-blur-md border border-white/20 shadow-lg">
+                <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-wide drop-shadow-lg">
+                  {name}
+                </h1>
+              </div>
+            </div> */}
           </div>
           <div className="flex items-center gap-3 mt-4 sm:mt-0">
             <button
               onClick={() => editingProfile ? setEditingProfile(false) : startEditing()}
-              className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
-                editingProfile
-                  ? 'bg-gray-100 text-gray-600 hover:bg-gray-200 border border-gray-200'
-                  : 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md hover:shadow-lg'
-              }`}
+              className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all ${editingProfile
+                ? 'bg-gray-100 text-gray-600 hover:bg-gray-200 border border-gray-200'
+                : 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md hover:shadow-lg'
+                }`}
             >
               {editingProfile ? <FiX className="h-4 w-4" /> : <FiEdit3 className="h-4 w-4" />}
               {editingProfile ? 'Cancel' : 'Edit Profile'}

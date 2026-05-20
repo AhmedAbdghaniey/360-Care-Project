@@ -36,6 +36,7 @@ using MidSpace.Domain.Managers.Posts;
 using MidSpace.Domain.Managers.Comments;
 using MidSpace.Domain.Managers.Follows;
 using MidSpace.Domain.Managers.Feed;
+using MidSpace.Domain.Managers.Availabilities;
 
 namespace MidSpace.API
 {
@@ -115,6 +116,7 @@ namespace MidSpace.API
             builder.Services.AddScoped<ICommentsManager, CommentsManager>();
             builder.Services.AddScoped<IFollowsManager, FollowsManager>();
             builder.Services.AddScoped<IFeedManager, FeedManager>();
+            builder.Services.AddScoped<IAvailabilityManager, AvailabilityManager>();
 
             var app = builder.Build();
 

@@ -10,12 +10,12 @@ namespace MidSpace.Data.Repository.DoctorsRepo
         public DoctorsRepo(ApplicationDbContext context) : base(context) { }
 
         public override async Task<IEnumerable<Doctor>> GetAllAsync()
-            => await _context.Doctors.Include(d => d.User).ToListAsync();
+            => await _context.Doctors.Include(d => d.User).Include(d => d.Availabilities).ToListAsync();
 
         public override async Task<Doctor?> GetByIdAsync(int id)
-            => await _context.Doctors.Include(d => d.User).Include(d => d.Certificates).FirstOrDefaultAsync(d => d.Id == id);
+            => await _context.Doctors.Include(d => d.User).Include(d => d.Certificates).Include(d => d.Availabilities).FirstOrDefaultAsync(d => d.Id == id);
 
         public async Task<Doctor?> GetByUserIdAsync(int userId)
-            => await _context.Doctors.Include(d => d.User).Include(d => d.Certificates).FirstOrDefaultAsync(d => d.UserId == userId);
+            => await _context.Doctors.Include(d => d.User).Include(d => d.Certificates).Include(d => d.Availabilities).FirstOrDefaultAsync(d => d.UserId == userId);
     }
 }

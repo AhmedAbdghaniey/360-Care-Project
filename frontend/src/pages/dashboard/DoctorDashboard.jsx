@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useMemo } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import {
@@ -9,16 +9,14 @@ import {
 import { useAuth } from '../../context/AuthContext'
 import { useJobs } from '../../hooks/useJobs'
 import { useJobRecommendations } from '../../hooks/useJobRecommendations'
+import { useMyAppointments } from '../../hooks/useAppointments'
+import { useMyDoctorProfile } from '../../hooks/useDoctors'
 import StatCard from '../../components/ui/StatCard'
 import LoadingSkeleton from '../../components/ui/LoadingSkeleton'
 import EmptyState from '../../components/ui/EmptyState'
-import { getMy as getMyAppointments } from '../../api/appointments'
-import { getMyProfile as getDoctorProfile } from '../../api/doctors'
 
 const quickActions = [
   { label: 'View Schedule', icon: FiCalendar, path: '/appointments', color: 'from-cyan-500 to-blue-600', desc: 'Manage appointments' },
-  { label: 'Add Medical Record', icon: FiPlusCircle, path: '/medical-records', color: 'from-cyan-500 to-blue-600', desc: 'Document patient visit' },
-  { label: 'Write Prescription', icon: FiEdit3, path: '/prescriptions', color: 'from-teal-400 to-cyan-500', desc: 'Prescribe medication' },
   { label: 'View Messages', icon: FiMessageSquare, path: '/messages', color: 'from-amber-400 to-orange-500', desc: 'Chat with patients' },
   { label: 'Jobs', icon: FiBriefcase, path: '/jobs', color: 'from-emerald-400 to-teal-500', desc: 'Find opportunities' },
 ]
@@ -49,30 +47,11 @@ export default function DoctorDashboard() {
   const navigate = useNavigate()
   const { data: jobsData, isLoading: loadingJobs } = useJobs()
   const { data: recData, isLoading: loadingRecs } = useJobRecommendations()
+  const { data: profileRaw, isLoading: loadingProfile } = useMyDoctorProfile()
+  const { data: appointmentsRaw, isLoading: loadingAppts } = useMyAppointments()
 
-  const [profile, setProfile] = useState(null)
-  const [appointments, setAppointments] = useState([])
-  const [loadingProfile, setLoadingProfile] = useState(true)
-  const [loadingAppts, setLoadingAppts] = useState(true)
-
-  useEffect(() => {
-    setLoadingProfile(true)
-    getDoctorProfile()
-      .then((res) => setProfile(res?.data || res))
-      .catch(() => {})
-      .finally(() => setLoadingProfile(false))
-  }, [])
-
-  useEffect(() => {
-    setLoadingAppts(true)
-    getMyAppointments()
-      .then((res) => {
-        const list = Array.isArray(res) ? res : res?.data || []
-        setAppointments(list)
-      })
-      .catch(() => {})
-      .finally(() => setLoadingAppts(false))
-  }, [])
+  const profile = profileRaw?.data || profileRaw || null
+  const appointments = Array.isArray(appointmentsRaw) ? appointmentsRaw : appointmentsRaw?.data || []
 
   const today = new Date().toDateString()
   const todayAppts = appointments.filter((a) => new Date(a.date || a.dateTime).toDateString() === today)

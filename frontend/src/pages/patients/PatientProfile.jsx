@@ -79,11 +79,11 @@ export default function PatientProfile() {
       {/* Profile Section */}
       <div className="relative px-6 pb-6">
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between -mt-16 mb-6">
-          <div className="flex flex-col sm:flex-row sm:items-end gap-4">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
             <div className="w-32 h-32 rounded-full border-4 border-white bg-gradient-to-br from-violet-400 to-pink-600 flex items-center justify-center text-4xl font-bold text-white shadow-xl shrink-0">
               {getInitials(name)}
             </div>
-            <div className="pb-1">
+            <div className="pt-6 sm:pt-0">
               <h1 className="text-2xl font-bold text-gray-900">{name}</h1>
               <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mt-1 text-sm text-gray-400">
                 {gender && <span className="flex items-center gap-1"><FiUser className="h-3.5 w-3.5" />{gender}</span>}

@@ -4445,11 +4445,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.gig\\New folder\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj",
+      "projectUniqueName": "D:\\DEPI\\midSpace\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj",
       "projectName": "MidSpace.InfraStructure",
-      "projectPath": "D:\\.gig\\New folder\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj",
+      "projectPath": "D:\\DEPI\\midSpace\\backend\\MidSpace.InfraStructure\\MidSpace.InfraStructure.csproj",
       "packagesPath": "C:\\Users\\sw\\.nuget\\packages\\",
-      "outputPath": "D:\\.gig\\New folder\\backend\\MidSpace.InfraStructure\\obj\\",
+      "outputPath": "D:\\DEPI\\midSpace\\backend\\MidSpace.InfraStructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

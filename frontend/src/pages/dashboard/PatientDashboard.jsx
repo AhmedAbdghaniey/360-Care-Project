@@ -16,7 +16,6 @@ import { getAll as getAllDoctors } from '../../api/doctors'
 
 const quickActions = [
   { label: 'Book Appointment', icon: FiPlusCircle, path: '/appointments/book', color: 'from-violet-500 to-purple-600', desc: 'Schedule a visit' },
-  { label: 'View Records', icon: FiFileText, path: '/medical-records', color: 'from-teal-400 to-cyan-500', desc: 'Check medical history' },
   { label: 'Messages', icon: FiMessageSquare, path: '/messages', color: 'from-amber-400 to-orange-500', desc: 'Chat with doctors' },
 ]
 
